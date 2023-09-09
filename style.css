@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(5, 5, 36);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+nav{
+    display: flex;
+    color: rgb(0, 255, 170);
+    justify-content: space-around;
+    align-items: center;
+    height: 65px;
+    background-color: rgb(3, 3, 59);
+}
+nav ul{
+    display:flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none ;
+    margin: 0 23px;
+}
+nav ul li a{
+   text-decoration: none;
+   color: aqua;
+}
+nav ul li a:hover{
+   font-size: larger;
+   color: rgb(231, 76, 110);
+}
+main hr{
+    border: 0;
+    background: #aa6666;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+.left{
+    font-size: 3.5 rex;
+}
+.first{
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    margin: 115px 0 ;
+}
+.first div{
+    width: 30%;
+     
+}
+.leftsection{
+    width: 15px;
+    font-size: 3.1rex;
+    margin: 9px;
+}
+.rightsection{
+    margin: 5px;
+    width: 34px;
+}
+.orange{
+    color: rgb(207, 178, 114);
+}
+.rey{
+    color: #aa6666;
+}
+.element{
+    color:rgb(107, 104, 99) ;
+}
+.second{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+.second .box{
+    background: gainsboro;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    margin: 50px 0;
+    display: flex;
+}
+.second .verticle{
+    height: 90px;
+    width: 1px;
+    background-color: blanchedalmond;
+    margin: 0 100px ;
+}
+.second h1{
+    font-size: 1.9rem;
+}
